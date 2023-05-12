@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+*,
+*>* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    margin: 8px 0;
+}
+
+header,
+footer {
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: 32px;
+}
+
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+}
+
+
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.ol-attribution {
+    visibility: hidden;
+}
